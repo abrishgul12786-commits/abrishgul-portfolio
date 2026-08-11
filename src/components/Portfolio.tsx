@@ -56,14 +56,6 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenHireModal }) => {
         {/* IMPORTANT DISCLAIMER NOTE (Mandatory Requirement) */}
         <div className="mb-10 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/80 flex items-start gap-3 shadow-xs">
           <Info className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
-          <div>
-            <h4 className="text-sm font-bold text-amber-900 dark:text-amber-200">
-              Important Portfolio Notice
-            </h4>
-            <p className="text-xs text-amber-800 dark:text-amber-300 mt-0.5 leading-relaxed">
-              <strong>Note:</strong> These are portfolio demonstration projects created to showcase Abrish Gul's skills, technical capabilities, and workflow standards for prospective Fiverr clients.
-            </p>
-          </div>
         </div>
 
         {/* Category Filters */}

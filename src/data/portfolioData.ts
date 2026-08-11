@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   fiverrName: 'Abrish Gul',
   fiverrUrl: 'https://fiverr.com',
   email: 'abrishgulabrish@gmail.com',
-  instagramUrl: 'https://instagram.com/abrish.gul.ai',
+  instagramUrl: 'https://instagram.com/abrishgul',
   university: 'PMAS ARID AGRICULTURE UNIVERSITY',
   degree: 'Bachelor of Science in Computer Science',
   titles: [
