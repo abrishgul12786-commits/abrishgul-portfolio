@@ -155,7 +155,7 @@ export const Contact: React.FC<ContactProps> = ({ prefilledService, prefilledMes
                 </div>
                 <div>
                   <h5 className="text-sm font-bold text-slate-900 dark:text-white">Instagram Profile</h5>
-                  <p className="text-xs text-slate-500 dark:text-slate-400">@abrish.gul.ai</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">@abrishgul_123</p>
                 </div>
               </div>
 
