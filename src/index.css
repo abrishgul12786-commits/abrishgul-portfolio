@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-slate-900 bg-slate-50 dark:bg-slate-950 dark:text-slate-100;
+  }
+}
+
+/* Print CSS rules for Resume Modal */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-cv, #printable-cv * {
+    visibility: visible;
+  }
+  #printable-cv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
