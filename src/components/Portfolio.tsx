@@ -53,10 +53,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenHireModal }) => {
           <div className="w-20 h-1.5 bg-gradient-to-r from-teal-500 to-emerald-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
-        {/* IMPORTANT DISCLAIMER NOTE (Mandatory Requirement) */}
-        <div className="mb-10 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/80 flex items-start gap-3 shadow-xs">
-          <Info className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
-        </div>
+
 
         {/* Category Filters */}
         <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
