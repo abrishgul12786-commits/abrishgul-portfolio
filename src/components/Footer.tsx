@@ -94,7 +94,7 @@ export const Footer: React.FC = () => {
                 className="flex items-center gap-2 text-slate-300 hover:text-pink-300 transition-colors"
               >
                 <Instagram className="w-4 h-4 text-pink-400 shrink-0" />
-                <span>Instagram Placeholder</span>
+                <span>Instagram</span>
               </a>
             </div>
           </div>
